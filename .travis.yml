@@ -11,6 +11,8 @@ jobs:
         - npm run lint
         # - yarn run test
         - npm run package
+      before_deploy:
+        - cd build/package
       deploy:
         provider: npm
         email: "$NPM_EMAIL"

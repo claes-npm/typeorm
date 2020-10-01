@@ -161,7 +161,9 @@
       ".ts"
     ],
     "include": [
-      "build/package/**"
+      "build/package/**",
+      "package.json",
+      "README.md"
     ],
     "reporter": "json"
   },
