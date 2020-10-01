@@ -5,10 +5,6 @@
   "description": "Data-Mapper ORM for TypeScript, ES7, ES6, ES5. Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, MongoDB databases.",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "author": {
-    "name": "Umed Khudoiberdiev",
-    "email": "pleerock.me@gmail.com"
-  },
   "main": "./index.js",
   "browser": {
     "./browser/driver/aurora-data-api/AuroraDataApiDriver.js": "./browser/platform/BrowserDisabledDriversDummy.js",
@@ -165,8 +161,7 @@
       ".ts"
     ],
     "include": [
-      "build/compiled/src/**",
-      "src/**"
+      "build/package/**"
     ],
     "reporter": "json"
   },
