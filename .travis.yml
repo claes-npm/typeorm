@@ -8,7 +8,6 @@ jobs:
   include:
     - stage: release
       script:
-        - cp ormconfig.circleci-common.json ./ormconfig.json
         - npm run lint
         # - yarn run test
         - npm run package
