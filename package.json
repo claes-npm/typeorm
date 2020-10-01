@@ -160,11 +160,6 @@
     "extension": [
       ".ts"
     ],
-    "include": [
-      "build/package/**",
-      "package.json",
-      "README.md"
-    ],
     "reporter": "json"
   },
   "publishConfig": {
